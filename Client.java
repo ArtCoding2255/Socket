@@ -8,7 +8,7 @@ public class Client {
         Scanner input = new Scanner(System.in);
         try {
             // create a socket to a local host with port # 6789
-            Socket s = new Socket("localhost", 6789);
+            Socket s = new Socket("172.19.96.1", 6789);
             
             System.out.println("A connection is established and I'll now send a message");
 
